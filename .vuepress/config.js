@@ -2,6 +2,7 @@ module.exports = {
   "title": "noisonnoiton",
   "description": "vuepress-reco test",
   "dest": "public",
+  "base": "/demo-noisonnoiton/",
   "head": [
     [
       "link",
