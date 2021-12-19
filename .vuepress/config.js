@@ -19,6 +19,7 @@ module.exports = {
     ]
   ],
   "theme": "reco",
+  "lang": 'ko-KR',
   "themeConfig": {
     "nav": [
       {
@@ -47,13 +48,30 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/htdp1",
             "icon": "reco-github"
           }
         ]
       }
     ],
     "sidebar": {
+      "/blogs/cloud/": [
+        {
+          title: "AWS",
+          collapsable: false,
+          children: [
+            "2021/start",
+            "2021/certi",
+          ],
+        },
+        {
+          title: "Resources",
+          collapsable: false,
+          children: [
+            "2021/eks",
+          ],
+        },
+      ],
       "/docs/theme-reco/": [
         "",
         "theme",
@@ -72,20 +90,6 @@ module.exports = {
         "text": "Tag"
       }
     },
-    "friendLink": [
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
-    ],
     "logo": "/logo.png",
     "style": "@vuepress-reco/style-default",
     "search": true,
@@ -95,9 +99,21 @@ module.exports = {
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
     "startYear": "2017",
-    "noFoundPageByTencent": false
+    "noFoundPageByTencent": false,
+    "subSidebar": true
   },
+
   "markdown": {
-    "lineNumbers": true
-  }
+    "lineNumbers": true,
+    extendMarkdown: md => {
+      md.set({ breaks: true })
+      md.use(require('markdown-it-plantuml'))
+    }
+  },
+
+  "plugins": [
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "@dovyp/vuepress-plugin-clipboard-copy",
+  ]
 }

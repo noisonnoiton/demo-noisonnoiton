@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "author": "reco_luan",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
+    "dev": "vuepress dev . --open --host \"localhost\" --port 6400",
     "build": "vuepress build ."
   },
   "devDependencies": {
     "vuepress": "1.8.2",
-    "vuepress-theme-reco": "1.6.10"
+    "vuepress-theme-reco": "1.6.10",
+    "@dovyp/vuepress-plugin-clipboard-copy": "^1.0.0-alpha.7",
+    "markdown-it-plantuml": "^1.4.1"
   },
   "description": "vuepress-reco test"
 }
