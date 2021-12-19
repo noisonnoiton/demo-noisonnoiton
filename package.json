@@ -4,7 +4,7 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\" --port 6400",
-    "build": "vuepress build ."
+    "build": "vuepress build -d .vuepress/dist"
   },
   "devDependencies": {
     "vuepress": "1.8.2",
