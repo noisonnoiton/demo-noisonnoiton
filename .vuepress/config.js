@@ -1,6 +1,6 @@
 module.exports = {
   "title": "noisonnoiton",
-  "description": "vuepress-reco test",
+  "description": "Cloudbank demo.",
   "dest": "public",
   "head": [
     [
@@ -60,15 +60,15 @@ module.exports = {
           title: "AWS",
           collapsable: false,
           children: [
-            "2021/start",
-            "2021/certi",
+            "start",
+            "certi",
           ],
         },
         {
           title: "Resources",
           collapsable: false,
           children: [
-            "2021/eks",
+            "eks",
           ],
         },
       ],
@@ -97,8 +97,8 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "noisonnoiton",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017",
+    "record": "cloudbank",
+    "startYear": "2021",
     "noFoundPageByTencent": false,
     "subSidebar": true
   },
