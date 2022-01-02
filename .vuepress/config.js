@@ -2,6 +2,7 @@ module.exports = {
   "title": "noisonnoiton",
   "description": "Cloudbank demo.",
   "dest": "public",
+  "base": "/demo-noisonnoiton/",
   "head": [
     [
       "link",
