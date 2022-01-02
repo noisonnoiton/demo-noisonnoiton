@@ -11,7 +11,7 @@ author: 'hskim'
 ---
 
 ## Overview
-![](../../images/eks-public-private-subnet-view.png)
+![](../images/eks-public-private-subnet-view.png)
 
 ## Create EKS Cluster
 

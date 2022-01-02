@@ -38,7 +38,7 @@ AWS Certification 은 크게 아래와 같이 분류할 수 있다.
 
 - AWS Certmatrics 시험 일정 예약 화면 참고
 
-![](../../images/aws-certi-list.png)
+![](../images/aws-certi-list.png)
 
 
 ### 시험 비용
@@ -266,7 +266,7 @@ Certi. 인증 코드가 있어야, 접속 가능한 AWS Store.
 > AWS Certified Store URL
 <https://www.sunriseidcart.com/AWS/>
 
-![](../../images/aws-certi-store.png)
+![](../images/aws-certi-store.png)
 
 
 ### Voucher & Discount
