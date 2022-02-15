@@ -29,19 +29,19 @@ module.exports = {
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
-        "link": "/timeline/",
-        "icon": "reco-date"
-      },
-      {
         "text": "Docs",
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
+            "text": "HCP SRE CQ",
+            "link": "/docs/001_hcpsrecq/"
           }
         ]
+      },
+      {
+        "text": "TimeLine",
+        "link": "/timeline/",
+        "icon": "reco-date"
       },
       {
         "text": "Contact",
@@ -200,7 +200,25 @@ module.exports = {
         },
       ],
       // Docs
-      "/docs/theme-reco/": ["","theme","plugin","api"],
+      "/docs/001_hcpsrecq/": [
+        {
+          title: "Introduction",
+          collapsable: false,
+          children: [""],
+        },
+        {
+          title: "Basics",
+          collapsable: false,
+          children: ["setup", "platformapi", "standard"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Design",
+          collapsable: false,
+          children: ["basics", "resources"],
+          sidebarDepth: 2,
+        },
+      ],
     },
     "type": "blog",
     "blogConfig": {
