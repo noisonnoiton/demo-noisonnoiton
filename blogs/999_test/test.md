@@ -5,7 +5,7 @@ tags:
  - aws
  - gitops
 categories: 
- - test
+ - Test
 sidebar: 'auto'
 ---
 

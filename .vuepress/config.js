@@ -56,7 +56,21 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/blogs/cloud/": [
+      // Blogs
+      "/blogs/001_guide/": [
+        {
+          title: "Guide",
+          collapsable: false,
+          children: ["", "env", "doc"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Resource",
+          collapsable: false,
+          children: ["resource"],
+        },
+      ],
+      "/blogs/002_cloud/": [
         {
           title: "Introduction",
           collapsable: false,
@@ -73,6 +87,85 @@ module.exports = {
           children: ["eks", "alb", "nlb", "ebs", "efs"],
         },
       ],
+      "/blogs/003_refarch/": [
+        {
+          title: "Introduction",
+          collapsable: false,
+          children: [""],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Modern API",
+          collapsable: false,
+          children: ["modernapi"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Redis",
+          collapsable: false,
+          children: ["perftest", "hatest"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "EIP",
+          collapsable: false,
+          children: ["camel", "legacy"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Research ('20)",
+          collapsable: false,
+          children: ["keycloak", "harbor"],
+          sidebarDepth: 2,
+        },
+      ],
+      "/blogs/004_cna/": [
+        {
+          title: "Cloud Native App",
+          collapsable: false,
+          children: ["", "container", "k8s", "restapi"],
+          sidebarDepth: 1,
+        },
+        {
+          title: "Springboot",
+          collapsable: false,
+          children: [
+            "springboot/",
+            "springboot/restapi",
+            "springboot/bean",
+            "springboot/env",
+            "springboot/mybatis",
+            "springboot/rest-client",
+          ],
+          sidebarDepth: 1,
+        },
+      ],
+      // "/blogs/005_ml/": [
+      //   {
+      //     title: "Introduction",
+      //     collapsable: false,
+      //     children: [""],
+      //     sidebarDepth: 2,
+      //   },
+      //   {
+      //     title: "Jupyter",
+      //     collapsable: false,
+      //     children: [
+      //       "jupyterintro",
+      //       "jupyterserver",
+      //       "jupyterhub",
+      //       "jupyterproxy",
+      //     ],
+      //     sidebarDepth: 2,
+      //   },
+      //   {
+      //     title: "Inference",
+      //     collapsable: false,
+      //     children: ["inferenceintro", "inferencetriton", "inferencekfserving"],
+      //     sidebarDepth: 2,
+      //   },
+      // ],
+      // Docs
       "/docs/theme-reco/": ["","theme","plugin","api"],
     },
     "type": "blog",

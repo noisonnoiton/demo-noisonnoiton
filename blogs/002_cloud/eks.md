@@ -217,6 +217,8 @@ metrics-server                 1/1     1            0           17s
 
 ### 접속 방법
 
+Kubernetest Dashboard Web UI 접속.
+
 #### 1. eks-admin service account에 대한 인증 token 조회
 ```
 kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')
