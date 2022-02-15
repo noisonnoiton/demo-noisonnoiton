@@ -1,4 +1,14 @@
-# Jupyter Server Proxy
+---
+title: Jupyter Server Proxy
+date: 2021-05-30
+tags:
+- jupyter
+- kubernetes
+categories: 
+- Machine Learning
+sidebar: 'auto'
+author: 'noisonnoiton'
+---
 
 ## Introduction
 
@@ -234,11 +244,11 @@ $ python flask/bonjour.py
  * Debug mode: off
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
-![](../../images/jupyter-code-server-webapp.png)
+![](./images/jupyter-code-server-webapp.png)
 
 - 5000 번 port 를 URL 에 명시하여, Web Browser 에서 Jupyter Server Proxy 를 통하여 호출
 : ex> myhub.org/hub/{user-redirect}/proxy/5000
-![](../../images/jupyter-server-proxy-5000.png)
+![](./images/jupyter-server-proxy-5000.png)
 
 ### R Studio by Jupyter Proxy
 
@@ -363,5 +373,5 @@ Jupyter Hub config.yaml 에 profile 추가 및 kubespawner 설정
 ```
 
 - 접속 화면
-![](../../images/jupyter-rstudio.png)
+![](./images/jupyter-rstudio.png)
 

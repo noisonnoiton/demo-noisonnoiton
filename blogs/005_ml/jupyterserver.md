@@ -1,4 +1,14 @@
-# Jupyter Server
+---
+title: Jupyter Server
+date: 2021-05-30
+tags:
+- jupyter
+- kubernetes
+categories: 
+- Machine Learning
+sidebar: 'auto'
+author: 'noisonnoiton'
+---
 
 ## Introduction
 
@@ -209,7 +219,7 @@ notebook1 -down- store1
 notebook2 -down- store2
 @enduml
 
-![](../../images/jupyter-notebook-browser.png)
+![](./images/jupyter-notebook-browser.png)
 
 
 ### VS Code Extension
@@ -259,7 +269,7 @@ k02 -down- store
 @enduml
 
 - 구현 내역
-![](../../images/jupyter-local-ide.png)
+![](./images/jupyter-local-ide.png)
 
 #### VS Code Server + Remote Jupyter Server
 - ipython 개발환경을 Code Server 로 구성
@@ -296,7 +306,7 @@ k02 -down- store
 @enduml
 
 - 구현 내역
-![](../../images/jupyter-codeserver-browser.png)
+![](./images/jupyter-codeserver-browser.png)
 
 ### Frontend Standalone App.
 jupyterlab frontend module 을 활용하여, standalone frontend app 을 개발하여 활용도 가능은 함.
@@ -328,4 +338,4 @@ k02 -down- store
 @enduml
 
 - 구현 내역
-![](../../images/jupyter-standalone-browser.png)
+![](./images/jupyter-standalone-browser.png)

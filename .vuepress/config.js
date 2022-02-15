@@ -140,31 +140,31 @@ module.exports = {
           sidebarDepth: 1,
         },
       ],
-      // "/blogs/005_ml/": [
-      //   {
-      //     title: "Introduction",
-      //     collapsable: false,
-      //     children: [""],
-      //     sidebarDepth: 2,
-      //   },
-      //   {
-      //     title: "Jupyter",
-      //     collapsable: false,
-      //     children: [
-      //       "jupyterintro",
-      //       "jupyterserver",
-      //       "jupyterhub",
-      //       "jupyterproxy",
-      //     ],
-      //     sidebarDepth: 2,
-      //   },
-      //   {
-      //     title: "Inference",
-      //     collapsable: false,
-      //     children: ["inferenceintro", "inferencetriton", "inferencekfserving"],
-      //     sidebarDepth: 2,
-      //   },
-      // ],
+      "/blogs/005_ml/": [
+        {
+          title: "Introduction",
+          collapsable: false,
+          children: [""],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Jupyter",
+          collapsable: false,
+          children: [
+            "jupyterintro",
+            "jupyterserver",
+            "jupyterhub",
+            "jupyterproxy",
+          ],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Inference",
+          collapsable: false,
+          children: ["inferenceintro", "inferencetriton", "inferencekfserving"],
+          sidebarDepth: 2,
+        },
+      ],
       // Docs
       "/docs/theme-reco/": ["","theme","plugin","api"],
     },

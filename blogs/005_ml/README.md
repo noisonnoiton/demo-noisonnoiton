@@ -1,4 +1,11 @@
-# Overview
+---
+title: Overview
+date: 2021-05-25
+categories: 
+- Machine Learning
+sidebar: 'auto'
+author: 'noisonnoiton'
+---
 
 Machine Learning Data Analysis 환경, Resource 활용 효율화, MLOps etc.
 
@@ -9,6 +16,5 @@ Machine Learning Data Analysis 환경, Resource 활용 효율화, MLOps etc.
 - Inference Server
   - Kubernetes Triton Server Cluster 활용
   - Inference Service 를 활용한 Model Serving (KFServing)
-
 
 <Comment />

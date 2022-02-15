@@ -1,4 +1,14 @@
-# KFServing
+---
+title: KFServing
+date: 2021-06-12
+tags:
+- inference
+- kubernetes
+categories: 
+- Machine Learning
+sidebar: 'auto'
+author: 'noisonnoiton'
+---
 
 ## Introduction
 
@@ -101,7 +111,7 @@ networking.istio.io | VirtualService
 
 - Knative traffic flow  
 
-![](../../images/istio-knative-flow.png)
+![](./images/istio-knative-flow.png)
 
 | API group                      | Resource
 ---------------------------------|------------------
@@ -268,7 +278,7 @@ KFServing 에서 제공하는 custom resource 로는, InferenceService / Trained
 
 Kubernetes 에서 InferenceService 를 생성하면 아래와 같은 resource 들이 생성된다. 아래는 default / canary configuration 이 나누어져 있는 예시이지만, default configuration 만으로도 정의할 수 있다.
 
-<img src="../../images/kfserving-inference-service.png" width="350px" height="450px" ></img>
+<img src="./images/kfserving-inference-service.png" width="350px" height="450px" ></img>
 
 - InferenceService
   - KFServing, 즉, kubeflow 에서 제공하는 resource.

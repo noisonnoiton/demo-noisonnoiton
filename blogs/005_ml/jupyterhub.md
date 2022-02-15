@@ -1,4 +1,14 @@
-# Jupyter Hub
+---
+title: Jupyter Hub
+date: 2021-05-30
+tags:
+- jupyter
+- kubernetes
+categories: 
+- Machine Learning
+sidebar: 'auto'
+author: 'noisonnoiton'
+---
 
 ## Introduction
 
@@ -163,7 +173,7 @@ singleuser:
 ```
 
 - Jupyter Hub Profile List 조회
-![](../../images/jhub-profile-official.png)
+![](./images/jhub-profile-official.png)
 
 
 
@@ -369,7 +379,7 @@ Jupyter Hub에는 특별한 권한을 가진 Admin 개념이 존재한다. 다�
 
 - Jupyter Hub Admin Panel  
 
-![](../../images/jupyter-hub-admin-panel.png)
+![](./images/jupyter-hub-admin-panel.png)
 
 #### Authenticator Use Case
 
@@ -497,16 +507,16 @@ statefulset.apps/keycloak-postgresql   1/1
 ```
 
   2. Jupyter Hub 전용 KeyCloak Realm / Client 구성  
-  ![](../../images/keycloak-client-jupyterhub.png)  
+  ![](./images/keycloak-client-jupyterhub.png)  
 
   3. Github Organization Oauth Apps 에, keycloak app. 추가  
-  ![](../../images/github-oauthapp-keycloak.png)  
+  ![](./images/github-oauthapp-keycloak.png)  
 
   4. 위에서 생성한 Client ID/secret 을 활용하여, KeyCloak Identity Provider 에 GitHub 추가  
-  ![](../../images/keycloak-provider-github.png)  
+  ![](./images/keycloak-provider-github.png)  
 
   5. Github Organization Oauth Apps, keycloak app. 에 Authorization Callback URL Update  
-  ![](../../images/github-oauth-callback.png)  
+  ![](./images/github-oauth-callback.png)  
 
   6. Jupyter Hub config.yaml 에 GenericOAuthenticator 설정  
     : <u>*KeyCloak openid connect*</u>
@@ -541,11 +551,11 @@ hub:
 - Jupyter Hub Login 시, KeyCloak Login 으로 redirect
   - keycloak user 로 login 가능
   - identity provider 인 GitHub 로 login 가능
-![](../../images/keycloak-jhub-login.png)
+![](./images/keycloak-jhub-login.png)
 
 - KeyCloak 에 Identity Provider 로 등록된 GitHub 를 통한 Login
   - GitHub Client key 를 생성한 Organization 에 속한 User 만 인가됨.
-![](../../images/github-keycloak-login.png)
+![](./images/github-keycloak-login.png)
 
 - 특이 사항
   : Jupyter Hub Logout 기능을 사용할 경우, Jupyter Hub session 만 삭제됨.

@@ -1,4 +1,14 @@
-# Triton Inference Server
+---
+title: Triton Inference Server
+date: 2021-06-11
+tags:
+- inference
+- kubernetes
+categories: 
+- Machine Learning
+sidebar: 'auto'
+author: 'noisonnoiton'
+---
 
 ## Introduction
 
@@ -151,7 +161,7 @@ stable/prometheus 를 배포하여, inference request Monitoring.
   - Inference Request 에 대한 처리 metric 이 모델마다 각각 추적됨. (repository model 8개)
   - Scheduling 을 위한 Queue 도 각각 생성됨.  
 
-![](../../images/triton-grafana-dashboard.png)
+![](./images/triton-grafana-dashboard.png)
 
 > grafana dashboard.json 참조
 <https://github.com/triton-inference-server/server/blob/main/deploy/aws/dashboard.json>
@@ -193,4 +203,4 @@ Image '/workspace/images/mug.jpg':
 
 - 각 model 이 처리된 내역 Monitoring  
 
-![](../../images/triton-inference-testresult.png)
+![](./images/triton-inference-testresult.png)

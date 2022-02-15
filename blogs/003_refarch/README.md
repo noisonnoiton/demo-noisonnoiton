@@ -2,7 +2,7 @@
 title: Overview
 date: 2021-03-30
 categories: 
- - Ref. Arch.
+- Ref. Arch.
 sidebar: 'auto'
 author: 'noisonnoiton'
 ---
