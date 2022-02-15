@@ -2,12 +2,12 @@
 title: Quick Start
 date: 2022-12-19
 tags:
- - cloud
- - aws
+- cloud
+- aws
 categories: 
- - cloud
+- Cloud
 sidebar: 'auto'
-author: 'hskim'
+author: 'noisonnoiton'
 ---
 
 AWS에 생성한 Resource 및 필요한 초기 설정 정리한 내역임

@@ -1,6 +1,6 @@
 module.exports = {
   "title": "noisonnoiton",
-  "description": "Cloudbank demo.",
+  "description": "Kloudbank demo.",
   "dest": "public",
   "base": "/demo-noisonnoiton/",
   "head": [
@@ -49,7 +49,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/htdp1",
+            "link": "https://github.com/kloudbank",
             "icon": "reco-github"
           }
         ]
@@ -58,27 +58,22 @@ module.exports = {
     "sidebar": {
       "/blogs/cloud/": [
         {
+          title: "Introduction",
+          collapsable: false,
+          children: [""],
+        },
+        {
           title: "AWS",
           collapsable: false,
-          children: [
-            "start",
-            "certi",
-          ],
+          children: ["start","certi"],
         },
         {
           title: "Resources",
           collapsable: false,
-          children: [
-            "eks",
-          ],
+          children: ["eks", "alb", "nlb", "ebs", "efs"],
         },
       ],
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
+      "/docs/theme-reco/": ["","theme","plugin","api"],
     },
     "type": "blog",
     "blogConfig": {
@@ -98,7 +93,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "noisonnoiton",
     "authorAvatar": "/avatar.png",
-    "record": "cloudbank",
+    "record": "kloudbank",
     "startYear": "2021",
     "noFoundPageByTencent": false,
     "subSidebar": true

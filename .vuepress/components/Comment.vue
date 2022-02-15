@@ -13,7 +13,7 @@ export default {
     
     utterances.setAttribute('issue-term', 'pathname'); // pathname|url|title|og:title 중 택 1
     utterances.setAttribute('theme','github-light'); // theme 설정
-    utterances.setAttribute('repo',`htdp1/comment-repository`);
+    utterances.setAttribute('repo',`kloudbank/comment-repository`);
 
     // script tag 삽입
     this.$refs.comment.appendChild(utterances);

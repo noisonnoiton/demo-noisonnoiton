@@ -1,8 +1,8 @@
 ---
 home: true
-heroText: Cloudbank demo
+heroText: Kloudbank demo
 tagline: A simple vuepress blog theme.
-# heroImage: /cloudbank.png
+# heroImage: /kloudbank.png
 # heroImageStyle: {
 #   maxWidth: '600px',
 #   width: '100%',

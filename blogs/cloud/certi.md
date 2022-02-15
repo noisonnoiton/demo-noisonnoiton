@@ -2,11 +2,12 @@
 title: Certification
 date: 2022-12-19
 tags:
- - aws
+- cloud
+- aws
 categories: 
- - cloud
+- Cloud
 sidebar: 'auto'
-author: 'hskim'
+author: 'noisonnoiton'
 ---
 
 AWS Certification 관련 요구 지식 및 자격증 취득을 위한 가이드 정리.
@@ -38,7 +39,7 @@ AWS Certification 은 크게 아래와 같이 분류할 수 있다.
 
 - AWS Certmatrics 시험 일정 예약 화면 참고
 
-![](../images/aws-certi-list.png)
+![](./images/aws-certi-list.png)
 
 
 ### 시험 비용
@@ -266,7 +267,7 @@ Certi. 인증 코드가 있어야, 접속 가능한 AWS Store.
 > AWS Certified Store URL
 <https://www.sunriseidcart.com/AWS/>
 
-![](../images/aws-certi-store.png)
+![](./images/aws-certi-store.png)
 
 
 ### Voucher & Discount

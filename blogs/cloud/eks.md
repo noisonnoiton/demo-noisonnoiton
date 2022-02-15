@@ -2,16 +2,17 @@
 title: Amazon EKS Cluster
 date: 2022-03-01
 tags:
- - aws
- - eks
+- cloud
+- aws
+- kubernetes
 categories: 
- - cloud
+- Cloud
 sidebar: 'auto'
-author: 'hskim'
+author: 'noisonnoiton'
 ---
 
 ## Overview
-![](../images/eks-public-private-subnet-view.png)
+![](./images/eks-public-private-subnet-view.png)
 
 ## Create EKS Cluster
 
