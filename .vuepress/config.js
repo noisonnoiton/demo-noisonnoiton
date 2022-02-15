@@ -165,6 +165,40 @@ module.exports = {
           sidebarDepth: 2,
         },
       ],
+      "/blogs/006_gitops/": [
+        {
+          title: "Introduction",
+          collapsable: false,
+          children: ["", "gitopsintro"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "FluxCD",
+          collapsable: false,
+          children: ["fluxintro", "fluxcdv2"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "Flagger",
+          collapsable: false,
+          children: ["flaggerintro", "flaggerdeploy"],
+          sidebarDepth: 2,
+        },
+        {
+          title: "ArgoCD",
+          collapsable: false,
+          children: ["argocdintro","argocddeploy"],
+          sidebarDepth: 2,
+        },
+      ],
+      "/blogs/007_multicloud/": [
+        {
+          title: "Introduction",
+          collapsable: false,
+          children: ["", "diagram"],
+          sidebarDepth: 2,
+        },
+      ],
       // Docs
       "/docs/theme-reco/": ["","theme","plugin","api"],
     },

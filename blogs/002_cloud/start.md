@@ -2,7 +2,6 @@
 title: Quick Start
 date: 2021-03-24
 tags:
-- cloud
 - aws
 categories: 
 - Cloud

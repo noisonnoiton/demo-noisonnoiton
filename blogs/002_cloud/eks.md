@@ -2,7 +2,6 @@
 title: Amazon EKS Cluster
 date: 2021-03-24
 tags:
-- cloud
 - aws
 - kubernetes
 categories: 

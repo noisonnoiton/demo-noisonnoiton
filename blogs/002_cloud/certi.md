@@ -2,7 +2,6 @@
 title: Certification
 date: 2021-06-15
 tags:
-- cloud
 - aws
 categories: 
 - Cloud
